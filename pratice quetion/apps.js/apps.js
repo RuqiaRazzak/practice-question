@@ -36,54 +36,19 @@
 // Q4. Use logical operators to determine whether a number is between 10 and 20 (use logical operator)?
 
 
-// let x = 10, 
-// y = 20;
+// let num = prompt("Enter a number:");
+// if (num >= 10 && num <= 20) {
+//     alert("The number is between 10 and 20.");
+// } else {
+//     alert("The number is not between 10 and 20.");
+// }
 
-// // logical AND
-// document.write((x < 15) && (y > 10) ,"</br>"); 
-// document.write((y < 35) && (x > 26),"</br>");
-
-// // logical OR
-// document.write((x > 10) || (y > 20),"</br>");
-// document.write((x > 10) || (y < 20),"</br>");
-
-// // logical NOT
-// document.write(!(x == 10),"</br>");
-// document.write(!(y < 2),"</br>");
 
 
 //  Q5. Write a JavaScript program that asks the user for their grade (A, B, C, D, or F) and then 
 //  displays a message indicating whether they passed or failed?
 
 
-// let percentage = prompt("student result");
-// if (percentage > 0 && percentage <= 100){
-// if ( percentage >=80){
-//      document.write("Congrats!! A+");
-// }
-//  else if(percentage >=70){
-//      document.write("Congrats!! A");
-//  }
-//  else if(percentage >=60){
-//  document.write("Congrats!! B");
-// }
-// else if (percentage >= 50){
-//  document.write("Congrats!! C");
-// }
-// else if ( percentage >= 40){
-//  document.write("Congrats!! D");
-// }
-// else {
-//  document.write("fail");
-// }
-// }
-// else if (percentage >=101){
-//  document.write("your marks is not vaild try again")
-// }
-
-
-
-// SECOND METHOD:
 
 // let grade = prompt("Enter your grade (A, B, C, D, or F):");
 // if (grade === "A" || grade === "B" || grade === "C" || grade === "a" || grade === "b" || grade === "c") {
