@@ -38,9 +38,9 @@
 
 // let num = prompt("Enter a number:");
 // if (num >= 10 && num <= 20) {
-//     alert("The number is between 10 and 20.");
+//   document.write("The number is between 10 and 20.");
 // } else {
-//     alert("The number is not between 10 and 20.");
+//    document.write("The number is not between 10 and 20.");
 // }
 
 
